@@ -1,0 +1,11 @@
+//membuat database
+CREATE DATABASE perpustakaan;
+//memilih database
+USE perpustakaan;
+//membuat tabel buku
+CREATE TABLE buku (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  judul VARCHAR(255) NOT NULL,
+  pengarang VARCHAR(255) NOT NULL,
+  stok INT NOT NULL
+);
